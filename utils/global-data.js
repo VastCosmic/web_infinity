@@ -7,8 +7,7 @@ export const getGlobalData = () => {
     : 'Perception of the Infinity.';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved by VastCosmic';
-
+    : 'All rights reserved by VastCosmic    桂ICP备2022009562号';
   return {
     name,
     blogTitle,
